@@ -1,0 +1,195 @@
+./MQTT_Settings.py: 1: ./MQTT_Settings.py: import: not found
+./MQTT_Settings.py: 2: ./MQTT_Settings.py: import: not found
+from: can't read /var/mail/pathlib2
+./MQTT_Settings.py: 7: ./MQTT_Settings.py: Syntax error: "(" unexpected
+Traceback (most recent call last):
+  File "./MQTT_Settings.py", line 4, in <module>
+    import paho.mqtt.client as mqtt
+  File "/usr/local/lib/python2.7/dist-packages/paho/mqtt/client.py", line 49, in <module>
+    import dns.resolver
+  File "/usr/lib/python2.7/dist-packages/dns/resolver.py", line 33, in <module>
+    import dns.ipv4
+  File "/usr/lib/python2.7/dist-packages/dns/ipv4.py", line 21, in <module>
+    from ._compat import binary_type
+  File "/usr/lib/python2.7/dist-packages/dns/_compat.py", line 2, in <module>
+    import decimal
+  File "/usr/lib/python2.7/decimal.py", line 5938, in <module>
+    """, re.VERBOSE | re.IGNORECASE | re.UNICODE).match
+  File "/usr/lib/python2.7/re.py", line 194, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python2.7/re.py", line 249, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python2.7/sre_compile.py", line 572, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/lib/python2.7/sre_parse.py", line 716, in parse
+    p = _parse_sub(source, pattern, 0)
+  File "/usr/lib/python2.7/sre_parse.py", line 324, in _parse_sub
+    itemsappend(_parse(source, state))
+  File "/usr/lib/python2.7/sre_parse.py", line 676, in _parse
+    p = _parse_sub(source, state)
+  File "/usr/lib/python2.7/sre_parse.py", line 324, in _parse_sub
+    itemsappend(_parse(source, state))
+  File "/usr/lib/python2.7/sre_parse.py", line 676, in _parse
+    p = _parse_sub(source, state)
+  File "/usr/lib/python2.7/sre_parse.py", line 322, in _parse_sub
+    sourcematch = source.match
+KeyboardInterrupt
+Connected with result code 0
+Sending settings to: WR1
+Sending settings to: WB1
+Sending settings to: WB1
+Sending settings to: WR1
+Sending settings to: WB1
+Sending settings to: WB1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WB1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WB1
+Sending settings to: WB1
+Sending settings to: WB1
+Sending settings to: WB1
+Sending settings to: WB1
+Sending settings to: WB1
+Sending settings to: WB1
+Sending settings to: WB1
+Sending settings to: WB1
+Sending settings to: WD1
+Sending settings to: WB1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Connected with result code 0
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending 
