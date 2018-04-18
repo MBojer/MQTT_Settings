@@ -6,11 +6,11 @@ Settings_Payload[1]='20000'
 
 # --------------- TheBatTargetNo ---------------
 Settings_Topic[2]='/Boat/Settings/WBath/TheBatTargetON'
-Settings_Payload[2]='/Boat/Relay/WR1&2-ON'
+Settings_Payload[2]='/Boat/Relay/WR1/2&1'
 
 # --------------- Button 2 ---------------
 Settings_Topic[3]='/Boat/Settings/WBath/TheBatTargetOFF'
-Settings_Payload[3]='/Boat/Relay/WR1&2-OFF'
+Settings_Payload[3]='/Boat/Relay/WR1/2&0'
 
 # --------------- Button 3 ---------------
 Settings_Topic[4]='/Boat/Settings/WBath/TheBatTrigger'
