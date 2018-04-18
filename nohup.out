@@ -388,3 +388,439 @@ Sending settings to: WB0
 2
 /Boat/Settings/Dobby/RelayPins
 5,4,14,12,13;
+0
+/Boat/Settings/Dobby/MQTTKeepAlive
+20000;
+1
+/Boat/Settings/Dobby/MQTTFlashPassword
+-1;
+2
+/Boat/Settings/Dobby/RelayPins
+5,4,14,12,13;
+0
+/Boat/Settings/Dobby/MQTTKeepAlive
+20000;
+1
+/Boat/Settings/Dobby/MQTTFlashPassword
+-1;
+2
+/Boat/Settings/Dobby/RelayPins
+5,4,14,12,13;
+0
+/Boat/Settings/Dobby/MQTTKeepAlive
+20000;
+1
+/Boat/Settings/Dobby/MQTTFlashPassword
+-1;
+2
+/Boat/Settings/Dobby/RelayPins
+5,4,14,12,13;
+0
+/Boat/Settings/Dobby/MQTTKeepAlive
+20000;
+1
+/Boat/Settings/Dobby/MQTTFlashPassword
+-1;
+2
+/Boat/Settings/Dobby/RelayPins
+5,4,14,12,13;
+0
+/Boat/Settings/Dobby/MQTTKeepAlive
+20000;
+1
+/Boat/Settings/Dobby/MQTTFlashPassword
+-1;
+2
+/Boat/Settings/Dobby/RelayOnState
+0;
+3
+/Boat/Settings/Dobby/RelayPins
+5,4,14,12,13;
+0
+/Boat/Settings/Dobby/MQTTKeepAlive
+20000;
+1
+/Boat/Settings/Dobby/MQTTFlashPassword
+-1;
+2
+/Boat/Settings/Dobby/RelayOnState
+0;
+3
+/Boat/Settings/Dobby/RelayPins
+5,4,14,12,13;
+0
+/Boat/Settings/Dobby/MQTTKeepAlive
+20000;
+1
+/Boat/Settings/Dobby/MQTTFlashPassword
+-1;
+2
+/Boat/Settings/Dobby/RelayOnState
+0;
+3
+/Boat/Settings/Dobby/RelayPins
+5,4,14,12,13;
+0
+/Boat/Settings/Dobby/MQTTKeepAlive
+20000;
+1
+/Boat/Settings/Dobby/MQTTFlashPassword
+-1;
+2
+/Boat/Settings/Dobby/RelayOnState
+0;
+3
+/Boat/Settings/Dobby/RelayPins
+5,4,14,12,13;
+0
+/Boat/Settings/Dobby/MQTTKeepAlive
+20000;
+1
+/Boat/Settings/Dobby/MQTTFlashPassword
+-1;
+2
+/Boat/Settings/Dobby/RelayOnState
+0;
+3
+/Boat/Settings/Dobby/RelayPins
+5,4,14,12,13;
+0
+/Boat/Settings/Dobby/MQTTKeepAlive
+20000;
+1
+/Boat/Settings/Dobby/MQTTFlashPassword
+-1;
+2
+/Boat/Settings/Dobby/RelayOnState
+0;
+3
+/Boat/Settings/Dobby/RelayPins
+5,4,14,12,13;
+0
+/Boat/Settings/Dobby/MQTTKeepAlive
+20000;
+1
+/Boat/Settings/Dobby/MQTTFlashPassword
+-1;
+2
+/Boat/Settings/Dobby/RelayOnState
+0;
+3
+/Boat/Settings/Dobby/RelayPins
+5,4,14,12,13;
+0
+/Boat/Settings/Dobby/MQTTKeepAlive
+20000;
+1
+/Boat/Settings/Dobby/MQTTFlashPassword
+-1;
+2
+/Boat/Settings/Dobby/RelayOnState
+0;
+3
+/Boat/Settings/Dobby/RelayPins
+5,4,14,12,13;
+4
+/Boat/Settings/Dobby/RelayPinsAutoOff
+1,1,1,1,1;
+5
+/Boat/Settings/Dobby/RelayPinsAutoOffDelay
+100,200,300,400,500;
+0
+/Boat/Settings/Dobby/MQTTKeepAlive
+20000;
+1
+/Boat/Settings/Dobby/MQTTFlashPassword
+-1;
+2
+/Boat/Settings/Dobby/RelayOnState
+0;
+3
+/Boat/Settings/Dobby/RelayPins
+5,4,14,12,13;
+4
+/Boat/Settings/Dobby/RelayPinsAutoOff
+1,1,1,1,1;
+5
+/Boat/Settings/Dobby/RelayPinsAutoOffDelay
+100,200,300,400,500;
+0
+/Boat/Settings/Dobby/MQTTKeepAlive
+20000;
+1
+/Boat/Settings/Dobby/MQTTFlashPassword
+-1;
+2
+/Boat/Settings/Dobby/RelayOnState
+0;
+3
+/Boat/Settings/Dobby/RelayPins
+5,4,14,12,13;
+4
+/Boat/Settings/Dobby/RelayPinsAutoOff
+1,1,1,1,1;
+5
+/Boat/Settings/Dobby/RelayPinsAutoOffDelay
+100,200,300,400,500;
+ath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WBath
+Sending settings to: WR1
+Sending settings to: WR1
+Sending settings to: WR1
+Sending settings to: WR1
+Sending settings to: WR1
+Sending settings to: WR1
+Sending settings to: WR1
+Sending settings to: WR1
+Sending settings to: WR1
+Sending settings to: WR1
+Sending settings to: WR1
+Connected with result code 0
+Sending settings to: WR1
+Sending settings to: WR1
+Sending settings to: WR1
+Sending settings to: WR1
+Sending settings to: WR1
+Sending settings to: WR1
+Sending settings to: WBath
+Sending settings to: WR1
+Sending settings to: WR1
+Sending settings to: WR1
+Sending settings to: WR1
+Sending settings to: WR1
+Sending settings to: WR1
+Sending settings to: WR1
+Sending settings to: WBath
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: WD1
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: WBuzzer
+Sending settings to: WBuzzer
+Sending settings to: WBuzzer
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: WD1
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending settings to: Dobby
+Sending setting0
+/Boat/Settings/Dobby/MQTTKeepAlive
+20000;
+1
+/Boat/Settings/Dobby/MQTTFlashPassword
+-1;
+2
+/Boat/Settings/Dobby/RelayOnState
+0;
+3
+/Boat/Settings/Dobby/RelayPins
+5,4,14,12,13;
+4
+/Boat/Settings/Dobby/RelayPinsAutoOff
+1,1,1,1,1;
+5
+/Boat/Settings/Dobby/RelayPinsAutoOffDelay
+100,200,300,400,500;
+0
+/Boat/Settings/Dobby/MQTTKeepAlive
+20000;
+1
+/Boat/Settings/Dobby/MQTTFlashPassword
+-1;
+2
+/Boat/Settings/Dobby/RelayOnState
+0;
+3
+/Boat/Settings/Dobby/RelayPins
+5,4,14,12,13;
+4
+/Boat/Settings/Dobby/RelayPinsAutoOff
+1,1,1,1,1;
+5
+/Boat/Settings/Dobby/RelayPinsAutoOffDelay
+100,200,300,400,500;
+0
+/Boat/Settings/Dobby/MQTTKeepAlive
+20000;
+1
+/Boat/Settings/Dobby/MQTTFlashPassword
+-1;
+2
+/Boat/Settings/Dobby/RelayOnState
+0;
+3
+/Boat/Settings/Dobby/RelayPins
+5,4,14,12,13;
+4
+/Boat/Settings/Dobby/RelayPinsAutoOff
+1,1,1,1,1;
+5
+/Boat/Settings/Dobby/RelayPinsAutoOffDelay
+100,200,300,400,500;
+0
+/Boat/Settings/Dobby/MQTTKeepAlive
+20000;
+1
+/Boat/Settings/Dobby/MQTTFlashPassword
+-1;
+2
+/Boat/Settings/Dobby/RelayOnState
+0;
+3
+/Boat/Settings/Dobby/RelayPins
+5,4,14,12,13;
+4
+/Boat/Settings/Dobby/RelayPinsAutoOff
+1,1,1,1,1;
+5
+/Boat/Settings/Dobby/RelayPinsAutoOffDelay
+100,200,300,400,500;
+0
+/Boat/Settings/Dobby/MQTTKeepAlive
+20000;
+1
+/Boat/Settings/Dobby/MQTTFlashPassword
+-1;
+2
+/Boat/Settings/Dobby/RelayOnState
+0;
+3
+/Boat/Settings/Dobby/RelayPins
+5,4,14,12,13;
+4
+/Boat/Settings/Dobby/RelayPinsAutoOff
+1,1,1,1,1;
+5
+/Boat/Settings/Dobby/RelayPinsAutoOffDelay
+100,200,300,400,500;
+0
+/Boat/Settings/Dobby/MQTTKeepAlive
+20000;
+1
+/Boat/Settings/Dobby/MQTTFlashPassword
+-1;
+2
+/Boat/Settings/Dobby/RelayOnState
+0;
+3
+/Boat/Settings/Dobby/RelayPins
+5,4,14,12,13;
+4
+/Boat/Settings/Dobby/RelayPinsAutoOff
+1,1,1,1,1;
+5
+/Boat/Settings/Dobby/RelayPinsAutoOffDelay
+100,200,300,400,500;
