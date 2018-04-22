@@ -7,23 +7,23 @@ Settings_Payload=()
 
 # --------------- MQTT KeepAlive ---------------
 Settings_Topic+=('/Boat/Settings/'${Hostname}'/MQTTKeepAlive')
-Settings_Payload+=('20000')
+Settings_Payload+=('20000;')
 
 
 # --------------- MQTT Flash Password ---------------
 Settings_Topic+=('/Boat/Settings/'${Hostname}'/MQTTFlashPassword')
 # -1 = disabled
-Settings_Payload+=("-1")
+Settings_Payload+=("-1;")
 
 
 # --------------- Buzzer Pin ---------------
 Settings_Topic+=('/Boat/Settings/'${Hostname}'/BuzzerPin')
-Settings_Payload+=('15')
+Settings_Payload+=('15;')
 
 
 #--------------- DHT Pin ---------------
 Settings_Topic+=('/Boat/Settings/'${Hostname}'/DHTPin')
-Settings_Payload+=('2')
+Settings_Payload+=('2;')
 
 
 

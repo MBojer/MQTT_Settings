@@ -11,9 +11,10 @@
 
 # Remember the ";" at the end of each payload, has to be there to remove garbel at the end
 
+#Hostname=${0}
+#Hostname=${Hostname:0:(${#Hostname} - 3)}
 
-Hostname=${0}
-Hostname=${Hostname:0:(${#Hostname} - 3)}
+Hostname=WDimmer
 
 Settings_Topic=()
 Settings_Payload=()
@@ -46,19 +47,19 @@ Settings_Payload+=('-1;')
 ##--------------- Relay ---------------
 ## On State
 #Settings_Topic+=('/Boat/Settings/'${Hostname}'/RelayOnState')
-#Settings_Payload+=('0;')
+#Settings_Payload+=('1;')
 
 ## Pins
 #Settings_Topic+=('/Boat/Settings/'${Hostname}'/RelayPins')
-#Settings_Payload+=('5,4,14,12,13;')
+#Settings_Payload+=('5;')
 
 ##Pins Auto Off
 #Settings_Topic+=('/Boat/Settings/'${Hostname}'/RelayPinsAutoOff')
-#Settings_Payload+=('1,1,1,1,1;')
+#Settings_Payload+=('1;')
 
 ## Relay Pins Auto Off Delay
 #Settings_Topic+=('/Boat/Settings/'${Hostname}'/RelayPinsAutoOffDelay')
-#Settings_Payload+=('500,1000,1500,2000,2500;')
+#Settings_Payload+=('20000;')
 
 
 #--------------- Distance ---------------
@@ -66,37 +67,42 @@ Settings_Payload+=('-1;')
 # Distance > Trigger = OFF
 
 # Pins Trigger
-Settings_Topic+=('/Boat/Settings/'${Hostname}'/DistancePinTrigger')
-Settings_Payload+=('5,15;')
+#Settings_Topic+=('/Boat/Settings/'${Hostname}'/DistancePinTrigger')
+#Settings_Payload+=('14;')
 
 # Pins Echo
-Settings_Topic+=('/Boat/Settings/'${Hostname}'/DistancePinEcho')
-Settings_Payload+=('4,14;')
+#Settings_Topic+=('/Boat/Settings/'${Hostname}'/DistancePinEcho')
+#Settings_Payload+=('12;')
 
 # Trigger At
-Settings_Topic+=('/Boat/Settings/'${Hostname}'/DistanceTriggerAt')
-Settings_Payload+=('10,20;')
+#Settings_Topic+=('/Boat/Settings/'${Hostname}'/DistanceTriggerAt')
+#Settings_Payload+=('75;')
 
 # TargetsON
-Settings_Topic+=('/Boat/Settings/'${Hostname}'/DistanceTargetsON')
-Settings_Payload+=('/Boat/Relay/WR1/9&1,/Boat/Relay/WR1/10&1;')
+#Settings_Topic+=('/Boat/Settings/'${Hostname}'/DistanceTargetsON')
+#Settings_Payload+=('/Boat/Relay/WR1/2&1;')
 
 # TargetsOFF
-Settings_Topic+=('/Boat/Settings/'${Hostname}'/DistanceTargetsOFF')
-Settings_Payload+=('/Boat/Relay/WR1/9&0,/Boat/Relay/WR1/10&0;')
+#Settings_Topic+=('/Boat/Settings/'${Hostname}'/DistanceTargetsOFF')
+#Settings_Payload+=('/Boat/Relay/WR1/2&0;')
 
 # Refresh Rate
-Settings_Topic+=('/Boat/Settings/'${Hostname}'/DistanceRefreshRate')
-Settings_Payload+=('250,1750;')
+#Settings_Topic+=('/Boat/Settings/'${Hostname}'/DistanceRefreshRate')
+#Settings_Payload+=('500;')
 
 # Auto OFF Delay
-Settings_Topic+=('/Boat/Settings/'${Hostname}'/DistanceAutoOFFDelay')
-Settings_Payload+=('500,2640;')
+#Settings_Topic+=('/Boat/Settings/'${Hostname}'/DistanceAutoOFFDelay')
+#Settings_Payload+=('5000;')
 
 # Auto OFF Active
-Settings_Topic+=('/Boat/Settings/'${Hostname}'/DistanceAutoOFFActive')
-Settings_Payload+=('1,0;')
+#Settings_Topic+=('/Boat/Settings/'${Hostname}'/DistanceAutoOFFActive')
+#Settings_Payload+=('0;')
 
+
+#--------------- Dimmer ---------------
+# Dimmer Pin
+Settings_Topic+=('/Boat/Settings/'${Hostname}'/DimmerPin')
+Settings_Payload+=('5,4;')
 
 
 

@@ -18,7 +18,7 @@ Settings_Payload[4]='/Boat/Functions&zzzZZZ'
 
 # --------------- Button 4 - zzzZZZ ---------------
 Settings_Topic[5]='/Boat/Settings/WB1/Button4Target'
-Settings_Payload[5]='/Boat/Dimmer/WD1/1&70'
+Settings_Payload[5]='/Boat/Dimmer/WDimmer/1&70'
 
 # --------------- Button 5 ---------------
 Settings_Topic[6]='/Boat/Settings/WB1/Button5Target'

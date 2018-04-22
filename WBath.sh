@@ -1,29 +1,113 @@
 #!/bin/bash
 
-Settings_Topic[1]='/Boat/Settings/WBath/MQTTKeepAlive'
-Settings_Payload[1]='20000'
+# D1 = 5
+# D2 = 4
+# D3 = ?
+# D4 = 15
+# D5 = 14
+# D6 = 12
+# D7 = 13
+# D8 = 2
+
+# Remember the ";" at the end of each payload, has to be there to remove garbel at the end
+
+#Hostname=${0}
+#Hostname=${Hostname:0:(${#Hostname} - 3)}
+
+Hostname=WBath
+
+Settings_Topic=()
+Settings_Payload=()
+
+Publish_Delay=0.500
+
+# --------------- MQTT KeepAlive ---------------
+Settings_Topic+=('/Boat/Settings/'${Hostname}'/MQTTKeepAlive')
+Settings_Payload+=('20000;')
 
 
-# --------------- TheBatTargetNo ---------------
-Settings_Topic[2]='/Boat/Settings/WBath/TheBatTargetON'
-Settings_Payload[2]='/Boat/Relay/WR1/2&1'
+# --------------- MQTT Flash Password ---------------
+Settings_Topic+=('/Boat/Settings/'${Hostname}'/MQTTFlashPassword')
+# -1 = disabled
+Settings_Payload+=('-1;')
 
-# --------------- Button 2 ---------------
-Settings_Topic[3]='/Boat/Settings/WBath/TheBatTargetOFF'
-Settings_Payload[3]='/Boat/Relay/WR1/2&0'
 
-# --------------- Button 3 ---------------
-Settings_Topic[4]='/Boat/Settings/WBath/TheBatTrigger'
-Settings_Payload[4]='15'
+# --------------- Buzzer ---------------
+# Pin
+#Settings_Topic+=('/Boat/Settings/'${Hostname}'/BuzzerPin')
+#Settings_Payload+=('15;')
 
-# --------------- RelayAutoOFFTimer ---------------
-Settings_Topic[5]='/Boat/Settings/WBath/RelayAutoOFFTimer'
-Settings_Payload[5]='20000'
 
-for (( i=1; i<=${#Settings_Topic[@]}; i++ ))
+#--------------- DHT ---------------
+# Pin
+#Settings_Topic+=('/Boat/Settings/'${Hostname}'/DHTPin')
+#Settings_Payload+=('2;')
+
+
+##--------------- Relay ---------------
+## On State
+Settings_Topic+=('/Boat/Settings/'${Hostname}'/RelayOnState')
+Settings_Payload+=('1;')
+
+## Pins
+Settings_Topic+=('/Boat/Settings/'${Hostname}'/RelayPins')
+Settings_Payload+=('5;')
+
+##Pins Auto Off
+Settings_Topic+=('/Boat/Settings/'${Hostname}'/RelayPinsAutoOff')
+Settings_Payload+=('1;')
+
+## Relay Pins Auto Off Delay
+Settings_Topic+=('/Boat/Settings/'${Hostname}'/RelayPinsAutoOffDelay')
+Settings_Payload+=('20000;')
+
+
+#--------------- Distance ---------------
+# Distance < Trigger = ON
+# Distance > Trigger = OFF
+
+# Pins Trigger
+Settings_Topic+=('/Boat/Settings/'${Hostname}'/DistancePinTrigger')
+Settings_Payload+=('14;')
+
+# Pins Echo
+Settings_Topic+=('/Boat/Settings/'${Hostname}'/DistancePinEcho')
+Settings_Payload+=('12;')
+
+# Trigger At
+Settings_Topic+=('/Boat/Settings/'${Hostname}'/DistanceTriggerAt')
+Settings_Payload+=('90;')
+
+# TargetsON
+Settings_Topic+=('/Boat/Settings/'${Hostname}'/DistanceTargetsON')
+Settings_Payload+=('/Boat/Relay/WR1/2&1;')
+
+# TargetsOFF
+Settings_Topic+=('/Boat/Settings/'${Hostname}'/DistanceTargetsOFF')
+Settings_Payload+=('/Boat/Relay/WR1/2&0;')
+
+# Refresh Rate
+Settings_Topic+=('/Boat/Settings/'${Hostname}'/DistanceRefreshRate')
+Settings_Payload+=('750;')
+
+# Auto OFF Delay
+Settings_Topic+=('/Boat/Settings/'${Hostname}'/DistanceAutoOFFDelay')
+Settings_Payload+=('5000;')
+
+# Auto OFF Active
+Settings_Topic+=('/Boat/Settings/'${Hostname}'/DistanceAutoOFFActive')
+Settings_Payload+=('0;')
+
+
+
+
+for (( i=0; i<${#Settings_Topic[@]}; i++ ))
 do
-  mosquitto_pub -h localhost -t ${Settings_Topic[i]} -m ${Settings_Payload[i]} -u DasBoot -P NoSinking
-  sleep 0.500
+	echo ${i}
+	echo ${Settings_Topic[i]}
+	echo ${Settings_Payload[i]}
+	mosquitto_pub -h localhost -t ${Settings_Topic[i]} -m ${Settings_Payload[i]} -u DasBoot -P NoSinking
+	sleep ${Publish_Delay}
 done
 
 exit 0
